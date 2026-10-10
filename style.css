@@ -1,0 +1,354 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 1500px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 1500px;
+}
+
+/* =========================================
+       HEADER PART
+   ========================================= */
+
+header {
+    padding: 25px 0;
+}
+
+.container {
+    display: flex;
+
+    align-items: center;
+    margin: 0 50px;
+    justify-content: space-between;
+
+}
+
+.logo-text {
+    font-size: 25px;
+    font-weight: 900;
+    text-decoration: none;
+    color: #111;
+}
+
+nav {
+    display: flex;
+    gap: 25px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #555;
+}
+
+.header-btn {
+    padding: 12px 20px;
+    background: #111;
+    color: white;
+    font-size: 13px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+/* HEADER PART END */
+
+/* =========================================
+       HERO SECTION
+   ========================================= */
+.hero {
+    min-height: 720px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+    
+}
+
+.hero .container {
+    width: 100%;
+}
+
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+
+}
+
+.hero-text h2 {
+    font-size: clamp(55px, 7vw, 92px);
+    letter-spacing: -6px;
+    line-height: 0.95;
+}
+
+.hero-description {
+    max-width: 500px;
+    font-size: 18px;
+    color: #666;
+    margin-top: 35px;
+}
+
+.hero-label {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.hero-buttons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 35px;
+}
+
+.button {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 24px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    border: 1px solid transparent;
+
+    transition: 0.3s ease;
+}
+
+.button-primary {
+    background: #171717;
+    color: white;
+}
+
+.button-primary:hover {
+    background: #333;
+    transform: translateY(-3px);
+}
+
+.button-secondary {
+    background: white;
+    color: #171717;
+    border-color: #ccc;
+}
+
+.button-secondary:hover {
+    background: #171717;
+    color: #fff;
+}
+
+.hero-visual {
+    width: 400px;
+    height: 450px;
+
+
+
+    position: relative;
+}
+
+.hero-card {
+    position: absolute;
+    background: #171717;
+    color: white;
+    box-shadow: 25px 25px 60 rgba(0, 0, 0, 0.2);
+}
+
+.card-main {
+    display: flex;
+    width: 380px;
+    min-height: 430px;
+    right: 20px;
+    top: 20px;
+    padding: 35px;
+    flex-direction: column;
+    justify-content: space-between;
+    transform: rotateZ(12deg);
+    transition: 0.3s ease;
+}
+
+:hover {
+    transform: rotateZ(0deg);
+    transition: 0.3s ease;
+}
+
+.card-small {
+    width: 170px;
+    height: 170px;
+    bottom: -20px;
+    left: -50px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background: #DDD;
+    color: #171717;
+    z-index: 2;
+    font-size: 30px;
+}
+
+.card-top {
+    display: flex;
+    justify-content: space-between;
+    font-size: 11px;
+    letter-spacing: 2px;
+    color: #aaa;
+}
+
+.card-main h3 {
+    font-size: 38px;
+    letter-spacing: -2px;
+    line-height: 1;
+
+}
+
+.card-main p {
+    color: #aaa;
+    font-size: 12px;
+}
+
+.about-us-btns {
+    margin: 40px 0 40px 0;
+    padding: 30px 60px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    color: #888;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.about-us-btn-left {
+    width: 60%;
+    font-weight: 100;
+    letter-spacing: 2px;
+    font-size: 10px;
+}
+
+.about-us-btn-right {
+    display: flex;
+    justify-content: space-between;
+
+    letter-spacing: -1px;
+    width: 40%;
+
+}
+
+.about-us-btns span {
+    text-decoration: none;
+    color: #111;
+    color: #888;
+    font-weight: 900;
+
+}
+
+/* HERO SECTOIN END */
+/* SERVICES SECTION START */
+.services-title {
+    width: 55%;
+
+}
+
+.services-title p {}
+
+.services-title .title-span {
+    font-size: 5.1vw;
+    font-weight: 700;
+    letter-spacing: -3px;
+
+}
+
+.about-services {
+    width: 35%;
+    font-size: 17px;
+    line-height: 30px;
+    padding-top: 40px;
+    color: #666;
+}
+
+.services-header {
+    gap: 50px;
+    padding: 30px 0px;
+}
+
+.services {
+    margin-bottom: 100vh;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 40px;
+    background: white;
+}
+
+.p-span {
+    font-size: 10px;
+    letter-spacing: 3px;
+    font-weight: 700;
+}
+
+.services-card {
+    border: 1px solid #ddd;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px;
+    transition: 0.5s ease;
+    max-width: 400px;
+}
+
+.services-card h2 {
+    font-size: 25px;
+    color: #171717;
+    transition: 0.5s ease;
+}
+
+.services-card a {
+    text-decoration: none;
+    color: #171717;
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.5s ease;
+}
+
+.services-main {
+    display: grid;
+    grid-template-columns: repeat(4, 0.8fr);
+    grid-template-rows: 480px;
+    justify-content: center;
+    
+    margin: 0 50px;
+    margin-top: 70px;
+}
+
+.services-main h2 span {
+    font-size: 50px;
+    font-weight: 100;
+    transition: 0.5s ease;
+}
+
+.services-card:hover h2 {
+    transition: 0.5s ease;
+
+    color: white;
+}
+
+.services-card:hover {
+    background-color: #171717;
+    transition: 0.5s ease;
+}
+
+.services-card p {
+    color: #777;
+    transition: 0.5s ease;
+}
+
+.services-card:hover a {
+    color: white;
+    transition: 0.5s ease;
+}
