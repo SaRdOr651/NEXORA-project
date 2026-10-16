@@ -169,7 +169,11 @@ nav a {
     transition: 0.3s ease;
 }
 
+<<<<<<< HEAD
 :hover {
+=======
+.card-main:hover {
+>>>>>>> 9150a7f (HOW WE WORK END AMA FLESH AYOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO)
     transform: rotateZ(0deg);
     transition: 0.3s ease;
 }
@@ -534,7 +538,11 @@ nav a {
 }
 /* RANDOM NUMBERS END SO FAST I DONT FEEEL IT LOL' */
 /* NEW SECTION I MA FLESH IN THE PRIME YEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH */
+<<<<<<< HEAD
 .HWW {
+=======
+.HWW-head {
+>>>>>>> 9150a7f (HOW WE WORK END AMA FLESH AYOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO)
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -546,7 +554,11 @@ nav a {
     width: 60%;
 }
 .HWW-right {
+<<<<<<< HEAD
     width: 40%;
+=======
+    width: 30%;
+>>>>>>> 9150a7f (HOW WE WORK END AMA FLESH AYOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO)
     padding-top: 100px;
 
     
@@ -573,3 +585,48 @@ nav a {
     margin-top: 30px;
     align-items: flex-end;
 }
+<<<<<<< HEAD
+=======
+.HWW-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 400px;
+
+}
+.moving-text-div {
+    padding: 40px;
+    border-top: 1px solid #777;
+
+    width: 95%;
+    position: relative;
+    
+}
+.moving-texts-span {
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    color: #888;
+    
+}
+.moving-text {
+    transition: 0.6s ease;
+    padding: 20px 30px;
+    margin-left: 150px;
+
+}
+.moving-text:hover {
+    transform: translateX(50px);
+    transition: 0.3s ease;
+}
+.moving-text h3 {
+    font-size: clamp(48px, 5.1vw, 40px);
+    margin-bottom: 10px;
+}
+.moving-text-div-border-bottom {
+    border-bottom: 1px solid #777 ;
+}
+/* HWW END AMMA FLEAH AYOOOOOOOOOOOOOOOOOOOO */
+>>>>>>> 9150a7f (HOW WE WORK END AMA FLESH AYOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO)
