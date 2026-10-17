@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -579,7 +583,7 @@ nav a {
     align-items: center;
     flex-direction: column;
     width: 100%;
-    margin-bottom: 400px;
+    margin-bottom: 150px;
 
 }
 .moving-text-div {
@@ -615,3 +619,114 @@ nav a {
     border-bottom: 1px solid #777 ;
 }
 /* HWW END AMMA FLEAH AYOOOOOOOOOOOOOOOOOOOO */
+/* FOOTER START LAST PART */
+footer {
+    
+}
+.footer-background1 {
+    background: #171717;
+    width: 100%;
+    height: 50%;
+    padding: 150px 30px 50px 30px;
+}
+.footer-head {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+}
+.footer-head h2 {
+    color: white;
+    font-size: clamp(50px, 5.1vw, 90px);
+}
+.footer-head-down-p {
+    color: #999;
+    margin: 20px 10px;
+
+}
+.footer-head-up-p {
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+.footer-head a {
+    text-decoration: none;
+    background: white;
+    padding: 20px 30px;
+    color: #171717;
+    width: fit-content;
+    transition: 0.5s ease;
+}
+.footer-head a:hover {
+    transition: 0.5s ease;
+    transform: translateY(-20px);
+}
+.footer-head h2 span {
+    color: #888;
+}
+.footer-background2 {
+    background: #111;
+    width: 100%;
+    padding: 80px 30px;
+}
+.footer-top a {
+    text-decoration: none;
+    color: #999;
+    width: fit-content;
+}
+a.footer-top-title {
+    color: white;
+    letter-spacing: -1px;
+    font-size: 25px;
+    font-weight: 900;
+}
+.footer-top p {
+    color: #888;
+    margin-top: 30px;
+
+
+}
+.footer-top h4 {
+    color: #666;
+}
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.footer-top-right {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.links {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 50px;
+}
+.links a {
+    margin: 10px 0px;
+    font-size: 13px;
+}
+.links h4 {
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.footer-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #444;
+    border-top: 1px solid #444;
+    width: 100%;
+    margin-top: 30px;
+    padding: 20px 50px 10px 50px;
+    font-size: 15px;
+}
