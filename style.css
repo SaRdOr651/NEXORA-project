@@ -169,11 +169,7 @@ nav a {
     transition: 0.3s ease;
 }
 
-<<<<<<< HEAD
-:hover {
-=======
 .card-main:hover {
->>>>>>> 9150a7f (HOW WE WORK END AMA FLESH AYOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO)
     transform: rotateZ(0deg);
     transition: 0.3s ease;
 }
@@ -538,11 +534,8 @@ nav a {
 }
 /* RANDOM NUMBERS END SO FAST I DONT FEEEL IT LOL' */
 /* NEW SECTION I MA FLESH IN THE PRIME YEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH */
-<<<<<<< HEAD
-.HWW {
-=======
+
 .HWW-head {
->>>>>>> 9150a7f (HOW WE WORK END AMA FLESH AYOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO)
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -554,14 +547,9 @@ nav a {
     width: 60%;
 }
 .HWW-right {
-<<<<<<< HEAD
     width: 40%;
-=======
     width: 30%;
->>>>>>> 9150a7f (HOW WE WORK END AMA FLESH AYOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO)
     padding-top: 100px;
-
-    
 }
 .HWW-left .STBA {
     font-size: clamp(48px,5.1vw, 70px);
@@ -585,8 +573,6 @@ nav a {
     margin-top: 30px;
     align-items: flex-end;
 }
-<<<<<<< HEAD
-=======
 .HWW-main {
     display: flex;
     justify-content: center;
@@ -629,4 +615,3 @@ nav a {
     border-bottom: 1px solid #777 ;
 }
 /* HWW END AMMA FLEAH AYOOOOOOOOOOOOOOOOOOOO */
->>>>>>> 9150a7f (HOW WE WORK END AMA FLESH AYOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO)
